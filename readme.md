@@ -49,33 +49,29 @@ Remember to run your slider from index.js file initially.
 
 ### Task 2 - Newsletter
 
-The goal of this task is to create **PUG** structure for newsletter by fallowing designs.
+The goal of this task is to create **PUG** structure for newsletter by following these designs.
 
-Newsletter should show up after **6000ms timeout** in kind of nice and smooth animation.
+Newsletter should show up after **5000ms timeout** in kind of nice and smooth animation.
 
-Add simple **HTML5** and **JS** validation to your newsletter form you just created. All form inputs should be required. Please notice checkboxes and radio buttons have custom look.
+Add simple **HTML5** and **JS** validation to your newsletter form you just created. All form inputs should be required. Please notice checkboxes and radio buttons have a custom look.
 
 ![Screenshot 2](design/gifs/newsletter.gif)
 
 ### Task 3 - Requests Mock
 
-By following task you should create an API mocks to simulate saving and checking database records.
+For the following task you should create API mocks that simulate saving and checking database records. We encourage to use **json-server** package but you can install and setup whatever you want. Find out documentation here https://github.com/typicode/json-server
 
-We encourage to use **json-server** package but you can install and setup whatever you want. Find out documentation here https://github.com/typicode/json-server
-
-To run Database use:
+To run the Database use:
 
 ```npm run db```
 
-The goal is to create ability to save newsletter form data as a database record in txt/json file. Remember, inside database user can not save same email address twice.
-
-Use **XMLHttpRequest** to create a necessary request, also remember to manage a response as messages displayed in top of form.
+The goal is to allow saving newsletter form data as a database record in txt/json file. Use **XMLHttpRequest** to create a request. Extra credits for managing responses and displaying success/error messages in top of the form.
 
 ![Screenshot 2](design/gifs/subscription.gif)
 
 ------------
 
-Remember to use **RWD** for mobile views!
+Remember to use Responsive Web Design for mobile views!
 
 ## Send us your repo!
 After finishing all tasks, send us link to your repo at [joan@bookline.io](mailto:joan@bookline.io).
